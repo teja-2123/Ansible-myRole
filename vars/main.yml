@@ -1,0 +1,3 @@
+---
+# vars file for myapache-sai
+package_name: httpd

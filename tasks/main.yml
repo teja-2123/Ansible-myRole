@@ -1,0 +1,8 @@
+---
+# tasks file for myapache-sai
+- name: Install httpd package
+  yum:
+   name: "{{package_name}}"
+   state: latest
+  notify:
+    - restart apache

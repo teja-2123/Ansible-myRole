@@ -1,0 +1,6 @@
+---
+# handlers file for myapache-sai
+- name: restart apache
+  service:
+    name: httpd
+    state: restarted
